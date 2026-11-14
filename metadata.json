@@ -1,0 +1,6 @@
+{
+  "name": "دفتر التاجر",
+  "description": "Smart Debt Book - Professional Arabic-first RTL merchant debt ledger, multi-currency (ILS/USD) invoicing, payments, inventory, reports, and encrypted offline backup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
