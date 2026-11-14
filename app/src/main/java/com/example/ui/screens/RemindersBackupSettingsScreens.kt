@@ -665,7 +665,7 @@ fun SettingsScreen(
                                 "لبناء ملف APK تجريبي تلقائياً عبر GitHub Actions:\n" +
                                 "1. ادفع المشروع إلى مستودع GitHub.\n" +
                                 "2. أنشئ ملف .github/workflows/android-debug.yml.\n" +
-                                "3. استخدم actions/checkout@v4 و actions/setup-java@v4 (JDK 17).\n" +
+                                "3. استخدم actions/checkout@v4 و actions/setup-java@v4 (JDK 21).\n" +
                                 "4. شغّل gradle assembleDebug (أو ./gradlew assembleDebug).\n" +
                                 "5. ارفع المسار app/build/outputs/apk/debug/app-debug.apk عبر actions/upload-artifact@v4."
                         } else {
@@ -674,7 +674,7 @@ fun SettingsScreen(
                                 "Building a Debug APK via GitHub Actions:\n" +
                                 "1. Push the Android project to a GitHub repository.\n" +
                                 "2. Add .github/workflows/android-debug.yml.\n" +
-                                "3. Use actions/checkout@v4 and actions/setup-java@v4 (Temurin JDK 17).\n" +
+                                "3. Use actions/checkout@v4 and actions/setup-java@v4 (Temurin JDK 21).\n" +
                                 "4. Run ./gradlew assembleDebug.\n" +
                                 "5. Upload app/build/outputs/apk/debug/app-debug.apk via actions/upload-artifact@v4."
                         },
